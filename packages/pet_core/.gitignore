@@ -1,0 +1,8 @@
+# Dart / build output
+.dart_tool/
+build/
+coverage/
+
+# This is a library package, so its pubspec.lock is not committed: the app
+# and the backend each have their own lock file that decides the versions.
+pubspec.lock

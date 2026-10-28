@@ -1,0 +1,17 @@
+name: pet_core
+description: >
+  Shared, pure-Dart core of the Whiskers pet-care app: data models, AI prompts
+  and the Claude / Gemini clients. Used by both the Flutter app and the backend
+  server, so the two can never disagree about a prompt or a data format.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  http: ^1.6.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0

@@ -1,0 +1,21 @@
+name: whiskers_backend
+description: >
+  Backend for the Whiskers pet-care app. Holds the AI provider keys and the
+  prompts, so neither ever ships inside the mobile app.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  crypto: ^3.0.6
+  http: ^1.6.0
+  pet_core:
+    path: ../packages/pet_core
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0

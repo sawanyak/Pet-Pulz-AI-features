@@ -1,0 +1,15 @@
+# Secrets must NEVER end up inside an image.
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Not needed to build the server
+build/
+**/build/
+.dart_tool/
+**/.dart_tool/
+ios/
+android/
+lib/
+test/

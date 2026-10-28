@@ -1,0 +1,23 @@
+# Secrets: never commit real keys. The template .env.example IS committed.
+.env
+.env.*
+!.env.example
+
+# Dart / build output
+.dart_tool/
+build/
+coverage/
+
+# Compiled server binaries (dart compile exe bin/server.dart -o <name>)
+/server
+/bin/server
+*.exe
+*.aot
+*.jit
+*.kernel
+
+# Logs
+*.log
+
+# Committed ON PURPOSE: pubspec.lock. This is a deployable server, so every
+# build (and the Docker image) should resolve the same package versions.
