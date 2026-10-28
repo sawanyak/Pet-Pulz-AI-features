@@ -135,6 +135,10 @@ The first build takes a few minutes. While it runs: `r` hot reload,
 - **Share to Instagram:** opens the real iOS share sheet. Instagram only
   appears if it is installed (it is not on a simulator).
 
+### Demo video
+
+Youtube demo video link: https://youtube.com/shorts/INeJ5KyOp6A
+
 ### Run the tests
 
 ```bash
